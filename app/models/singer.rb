@@ -1,3 +1,3 @@
 class Singer < ApplicationRecord
-    belongs_to :album
+    has_many :albums
 end
